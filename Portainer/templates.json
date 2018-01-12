@@ -1,13 +1,13 @@
 [
-{
+ {
   "type": "container",
   "title": "JDTemplateTest",
   "description": "Jdownloader TemplateTest",
   "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Jdownloader.png",
   "image": "jlesage/jdownloader-2:latest",
   "ports": [
-    "5900:5901/tcp",
-    "5800:5801/tcp"
+    "5901/tcp",
+    "5801/tcp"
   ]
     "volumes": [
     {
@@ -20,5 +20,5 @@
       "/storage": "/var/lib/docker/volumes/JD2Template/storage",
     }
   ]
-}
+ }
 ]
